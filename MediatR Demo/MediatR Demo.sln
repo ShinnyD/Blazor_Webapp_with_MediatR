@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorUI", "BlazorUI\BlazorUI.csproj", "{F06D295A-1A79-4311-ACBA-FB09A07BC7F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLib", "DemoLib\DemoLib.csproj", "{8396AE24-7D1A-463B-B38B-09ADC5E89627}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C35B88D2-D35E-48BA-8061-52679CB4F838}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApi", "DemoApi\DemoApi.csproj", "{FF4A326C-3545-42F5-96A1-C0DB1054B064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F06D295A-1A79-4311-ACBA-FB09A07BC7F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06D295A-1A79-4311-ACBA-FB09A07BC7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06D295A-1A79-4311-ACBA-FB09A07BC7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06D295A-1A79-4311-ACBA-FB09A07BC7F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8396AE24-7D1A-463B-B38B-09ADC5E89627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8396AE24-7D1A-463B-B38B-09ADC5E89627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8396AE24-7D1A-463B-B38B-09ADC5E89627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8396AE24-7D1A-463B-B38B-09ADC5E89627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4A326C-3545-42F5-96A1-C0DB1054B064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4A326C-3545-42F5-96A1-C0DB1054B064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4A326C-3545-42F5-96A1-C0DB1054B064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4A326C-3545-42F5-96A1-C0DB1054B064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB3F5129-84C1-428C-BEF4-E0386FAB97FD}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+	EndGlobalSection
+EndGlobal
